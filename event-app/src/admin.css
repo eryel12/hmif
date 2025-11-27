@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0A0C0F;
+  display : flex ;
+  flex-direction: column ;
+  gap: 24px;
+
+  .container_button{
+    display : flex ;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 47px;
+    margin-top: 42px;
+    margin-left: 94px;
+    margin-right: 94px;
+
+    .container_button_left{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    .container_button_right{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+      background-color:#E46225;
+      padding: 6px 30px;
+      width: fit-content;
+      border-radius: 18px;
+      gap: 8px;
+      cursor: pointer;
+      }
+    .container_button_right:hover {
+      background-color: #7E3614; 
+      transform: scale(1.05);
+      transition: 0.2s ease;
+      }
+  }
+  
+  .container_heading{
+    display : flex ;
+    flex-direction: column;
+    gap: 82px;
+    margin-left: 94px;
+    margin-right: 94px;
+    margin-top: 90px;
+    
+    .container_heading_greet{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 40px;
+      color: #ffffff;
+    }
+    .container_heading_event{
+      display : flex ;
+      flex-direction: row;
+      align-items: center ;
+      gap: 15px;
+      justify-content: space-between;
+
+      .container_heading_event_left{
+        font-family: "Work Sans";
+        font-weight: 450;
+        font-size: 28px;
+        color: #ffffff; 
+      }
+      .container_heading_event_right{
+        font-family: "Work Sans";
+        font-weight: 700;
+        font-size: 24px;
+        color: #ffffff;
+        background-color:#53B4E9;
+        padding: 6px 36px;
+        width: fit-content;
+        border-radius: 18px;
+        gap: 8px;
+        cursor: pointer;
+      }
+      .container_heading_event_right:hover {
+        background-color: #1074AB; 
+        transform: scale(1.05);
+        transition: 0.2s ease;
+      }
+    }
+  }  
+  
+    
+  
+
+  .container_table{
+    display : flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 94px;
+    margin-right: 94px;
+    
+    .container_table_num{
+      background-color: #1074AB;
+      width: 50px;
+      padding: 6px 16px;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      border-top-left-radius: 12px ;
+    }
+    .container_table_title{
+      background-color: #1074AB;
+      padding: 6px 16px;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      width: 321px;
+    }
+    .container_table_action{
+      background-color: #1074AB;
+      width: 76px;
+      padding: 6px 16px;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      border-top-right-radius: 12px;
+    }
+  }
+}
