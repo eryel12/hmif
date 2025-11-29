@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+
 .main_container {
   width: 100vw;
   height: 100vh;
@@ -39,5 +43,91 @@
       transform: scale(1.05);
       transition: 0.2s ease;
       }
+  }
+  .container_card{
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    background-color:#2A8CC3;
+    padding: 24px 36px;
+    width: 320px;
+    border-radius: 18px;
+    gap: 8px;
+    margin-top: 42px;
+    margin-left: 94px;
+    margin-right: 94px;
+    .container_card_name{
+      font-family: "Work Sans";
+      font-weight: 750;
+      font-size: 36px;
+      color: #ffffff;
+    }
+    .container_card_desc{
+      font-family: "Work Sans";
+      font-weight: 300;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .container_card_date{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .container_card_location{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .container_card_quota{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .container_card__quota_left{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+      }
+      .container_card_quota_num{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 64px;
+      color: #ffffff;
+      }
+    }
+    .container_card_press{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .container_card_aplly{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+      background-color:#E46225;
+      padding: 6px 30px;
+      width: fit-content;
+      border-radius: 18px;
+      gap: 8px;
+      cursor: pointer;
+      }
+      .container_card_aplly:hover {
+      background-color: #7E3614; 
+      transform: scale(1.05);
+      transition: 0.2s ease;
+      }
+    }
+    
   }
 }
