@@ -7,7 +7,7 @@ function App() {
   return (
 
     
-    <div className="container">
+    <div className="main_container">
 
         <div className="container_button">
           <div className="container_button_left">

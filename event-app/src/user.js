@@ -1,10 +1,26 @@
 import './user.css';
+import { useNavigate } from 'react-router-dom';
 
 function User() {
     return (
 
-        <div className="container">
-            USER
+        <div className="main_container">
+
+            <div className="container_button">
+                <div className="container_button_left">
+                Home
+                </div>
+                <div className="container_button_right"
+                onClick={() => navigate('/admin')} >          
+                Admin
+                </div> 
+            </div>
+
+            <div className="container_card">
+
+
+            </div>
+
         </div>
     );
 }

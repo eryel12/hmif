@@ -1,0 +1,43 @@
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0A0C0F;
+  display : flex ;
+  flex-direction: column ;
+  gap: 24px;
+
+  .container_button{
+    display : flex ;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 47px;
+    margin-top: 42px;
+    margin-left: 94px;
+    margin-right: 94px;
+
+    .container_button_left{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+    }
+    .container_button_right{
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+      background-color:#E46225;
+      padding: 6px 30px;
+      width: fit-content;
+      border-radius: 18px;
+      gap: 8px;
+      cursor: pointer;
+      }
+    .container_button_right:hover {
+      background-color: #7E3614; 
+      transform: scale(1.05);
+      transition: 0.2s ease;
+      }
+  }
+}
