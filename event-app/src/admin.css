@@ -5,10 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
 
 
-.main_container {
-  width: 100vw;
-  height: 100vh;
-  background-color: #0A0C0F;
+.main_containers {
   display : flex ;
   flex-direction: column ;
   gap: 24px;
@@ -19,9 +16,7 @@
     justify-content: end;
     align-items: center;
     gap: 47px;
-    margin-top: 42px;
-    margin-left: 94px;
-    margin-right: 94px;
+    padding: 48px 80px;
 
     .container_button_left{
       font-family: "Work Sans";
@@ -52,9 +47,7 @@
     display : flex ;
     flex-direction: column;
     gap: 82px;
-    margin-left: 94px;
-    margin-right: 94px;
-    margin-top: 90px;
+    padding: 0px 92px;
     
     .container_heading_greet{
       font-family: "Work Sans";
@@ -135,5 +128,95 @@
       color: #ffffff;
       border-top-right-radius: 12px;
     }
-  }
+
+    .container_table_title{
+      background-color: #1074AB;
+      padding: 6px 16px;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      width: 321px;
+    }
+
+    .container_table_nums{
+      width: 50px;
+      padding: 6px 16px;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      border-top-left-radius: 12px ;
+    }
+
+    .container_table_data{
+      padding: 6px 16px;
+      font-family: "Work Sans";
+      font-weight: 600;
+      font-size: 16px;
+      color: #ffffff;
+      width: 321px;
+    }
+
+/* Tombol Save */
+.btn_save {
+  font-family: "Work Sans";
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
+.btn_save:hover {
+  color: #1074AB;
+  transition: 0.2s ease;
+}
+
+/* Tombol Cancel */
+.btn_cancel {
+
+  font-family: "Work Sans";
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.btn_cancel:hover {
+  color: #7E3614;
+  transition: 0.2s ease;
+}
+
+  }
+
+  .modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #1A1D21;
+  padding: 24px;
+  border-radius: 12px;
+  min-width: 320px;
+  color: #ffffff;
+}
+
+.modal-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.modal-input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #111;
+  color: #fff;
+}
+}
+
