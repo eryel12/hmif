@@ -10,8 +10,7 @@ function User() {
                 <div className="container_button_left">
                 Home
                 </div>
-                <div className="container_button_right"
-                onClick={() => navigate('/admin')} >          
+                <div className="container_button_right">          
                 Admin
                 </div> 
             </div>
