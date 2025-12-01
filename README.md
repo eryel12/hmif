@@ -7,6 +7,7 @@ Tech Stack :
 - Bahasa : JavaScript
 - Framework : ReactApp JS
 - Library : react-router-dom, Flowbite-React, CSS
+- Database : none (localStorage)
 
 Struktur File (Hierarki) :
 1. event-app, merupakan folder terbesar yang menyimpan semuanya
